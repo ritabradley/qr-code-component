@@ -45,6 +45,11 @@ body {
     border-radius: var(--rounded);
     height: auto;
     max-width: 30rem;
-    margin: 1.5rem;
+    margin: 1.5rem  1.5rem 0;
     width: 100%;
+}
+
+.card__details {
+    text-align: center;
+    padding: 2.5rem;
 }
