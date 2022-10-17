@@ -77,19 +77,15 @@ body {
 
 @media (min-width: 768px) {
     .card {
-        width: 35vh;
+        width: 350px;
         padding: 0 1.2rem;
     }
 
     .card__details {
-        padding: 2rem 1rem;
-    }
-
-    .card__title {
-        font-size: 2rem;
+        padding: 2rem 1.5rem;
     }
 
     .card__description {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 }
