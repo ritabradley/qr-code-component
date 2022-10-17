@@ -37,7 +37,14 @@ body {
     border-radius: var(--rounded);
     display: flex;
     flex-direction: column;
-    height: 80vh;
     justify-content: center;
     width: 90vw;
+}
+
+.card__img {
+    border-radius: var(--rounded);
+    height: auto;
+    max-width: 30rem;
+    margin: 1.5rem;
+    width: 100%;
 }
