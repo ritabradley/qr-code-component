@@ -5,6 +5,7 @@
     --light-gray: hsl(212, 45%, 89%);
     --gray-blue: hsl(220, 15%, 55%);
     --dark-blue: Dark blue: hsl(218, 44%, 22%);
+    --rounded: 1rem;
 }
 
 * {
@@ -27,4 +28,16 @@ body {
     font-weight: 400;
     justify-content: center;
     min-height: 100vh;
+    overflow: hidden;
+}
+
+.card {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: var(--rounded);
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    width: 90vw;
 }
