@@ -4,7 +4,7 @@
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
     --gray-blue: hsl(220, 15%, 55%);
-    --dark-blue: Dark blue: hsl(218, 44%, 22%);
+    --dark-blue: hsl(218, 44%, 22%);
     --rounded: 1rem;
 }
 
@@ -45,7 +45,7 @@ body {
     border-radius: var(--rounded);
     height: auto;
     max-width: 30rem;
-    margin: 1.5rem  1.5rem 0;
+    margin: 1.5rem 1.5rem 0;
     width: 100%;
 }
 
