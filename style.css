@@ -64,3 +64,13 @@ body {
 .card__description {
     color: var(--gray-blue);
 }
+
+.attribution {
+    font-size: 11px;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
